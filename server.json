@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "nl.thelistaccess/events",
+  "title": "The List Access",
+  "description": "Search the public Dutch event calendar by artist, city, venue, genre and date. Read-only.",
+  "version": "1.0.2",
+  "websiteUrl": "https://thelistaccess.nl/events/data/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thelistaccess.nl/api/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://thelistaccess.nl/icons/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/reinouttebrake/thelistaccess-mcp",
+    "source": "github"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owningSourceCommit": "ab69b7e24b995bf6890f28376bbdeb87dc0d5dd8",
+  "deployedSiteVersion": 706,
+  "adapterVersion": "1.0.1",
+  "files": {
+    "src/event-mcp.ts": {
+      "owningPath": "lib/event-mcp.ts",
+      "sha256": "9278279b1c488b9aedfe51c010f922013dd102219ca8bd5fb9f1fa79d1e689ff"
+    },
+    "src/public-route.ts": {
+      "owningPath": "app/api/mcp/route.ts",
+      "sha256": "789e0a164fb1c8cacae35db370156b1cdba848031812ea3604910d2941dea364"
+    },
+    "src/editorial-route.ts": {
+      "owningPath": "app/api/mcp/claude/route.ts",
+      "sha256": "11cd51ff01917629f3765946532468d3659b98c589432c72039b4e0cb58bf045"
+    }
+  }
+}
